@@ -1,0 +1,64 @@
+
+Q1)what does mean by manipulating dom in js?
+
+Manipulating the DOM (Document Object Model) in JavaScript refers to the process of interacting with and modifying the structure, content, and style of a web page using JavaScript.
+
+The DOM is a programming interface that allows programs and scripts to dynamically access and update the content, structure, and style of a web document. It represents the structure of the web page as a tree-like hierarchy, where each element (such as a paragraph, image, or button) is considered a node in the tree.
+
+By manipulating the DOM, you can perform various operations, such as:
+
+1)Accessing and Selecting Elements: You can use JavaScript to select specific elements on the page, such as by their tag name, class, ID, or other attributes, using methods like document.getElementById(), document.querySelector(), and document.querySelectorAll().
+
+2)Modifying Element Properties: Once you have selected an element, you can change its properties, such as the text content, attributes, or CSS styles, using properties like element.textContent, element.setAttribute(), and element.style.
+
+3)Creating, Inserting, and Removing Elements: You can dynamically create new elements, insert them into the DOM, or remove existing elements using methods like document.createElement(), element.appendChild(), element.insertBefore(), and element.removeChild().
+
+4)Handling Events: You can attach event listeners to DOM elements, allowing you to respond to user interactions, such as clicks, mouse movements, or key presses, using methods like element.addEventListener().
+
+5)Traversing the DOM: You can navigate the DOM tree, moving from one element to another, using properties like element.parentNode, element.children, and element.nextSibling.
+
+Manipulating the DOM is a fundamental part of web development using JavaScript, as it allows you to create dynamic and interactive web pages. It enables you to update the content and appearance of a web page without having to reload the entire page, improving the user experience and responsiveness of your web applications.
+
+
+Q2)There are Bootstrap for CSS and Bootstrap for Javascript when should i use what?
+-> The Bootstrap CSS and JavaScript files serve different purposes, and you should use them based on the functionality you need in your web application:
+
+1) Bootstrap CSS:
+
+Use the Bootstrap CSS link tag to include the Bootstrap CSS framework in your HTML document.
+The Bootstrap CSS provides a set of pre-designed styles and components that you can use to quickly build responsive and mobile-friendly web interfaces.
+It includes styles for things like typography, buttons, forms, navigation, and more.
+Including the Bootstrap CSS allows you to leverage the pre-built styles and components without having to write all the CSS from scratch.
+
+
+2) Bootstrap JavaScript (Bootstrap Bundle):
+
+Use the Bootstrap JavaScript script tag to include the Bootstrap JavaScript bundle in your HTML document.
+The Bootstrap JavaScript bundle includes the core JavaScript functionality for various Bootstrap components, such as modals, dropdowns, tooltips, and more.
+It also includes dependencies like Popper.js, which is used for positioning and layout of some components.
+Including the Bootstrap JavaScript bundle allows you to use the interactive and dynamic components provided by Bootstrap in your web application.
+In general, you should include both the Bootstrap CSS and the Bootstrap JavaScript bundle in your HTML document if you want to use the full functionality of the Bootstrap framework. The CSS provides the styling, and the JavaScript enables the interactive components.
+
+However, if you only need the CSS styles and don't require the interactive components, you can include just the Bootstrap CSS link tag and omit the JavaScript bundle. Conversely, if you only need the interactive components and don't require the default Bootstrap styles, you can include just the JavaScript bundle and write your own custom CSS.
+
+
+Q2) What should be used when Bootstrap in CSS or Bootstrap in js?
+->The Bootstrap CSS and JavaScript files serve different purposes, and you should use them based on the functionality you need in your web application:
+
+1)Bootstrap CSS:
+
+Use the Bootstrap CSS link tag to include the Bootstrap CSS framework in your HTML document.
+The Bootstrap CSS provides a set of pre-designed styles and components that you can use to quickly build responsive and mobile-friendly web interfaces.
+It includes styles for things like typography, buttons, forms, navigation, and more.
+Including the Bootstrap CSS allows you to leverage the pre-built styles and components without having to write all the CSS from scratch.
+
+2)Bootstrap JavaScript (Bootstrap Bundle):
+
+Use the Bootstrap JavaScript script tag to include the Bootstrap JavaScript bundle in your HTML document.The Bootstrap JavaScript bundle includes the core JavaScript functionality for various Bootstrap components, such as modals, dropdowns, tooltips, and more.
+It also includes dependencies like Popper.js, which is used for positioning and layout of some components.
+Including the Bootstrap JavaScript bundle allows you to use the interactive and dynamic components provided by Bootstrap in your web application.
+In general, you should include both the Bootstrap CSS and the Bootstrap JavaScript bundle in your HTML document if you want to use the full functionality of the Bootstrap framework. The CSS provides the styling, and the JavaScript enables the interactive components.
+
+However, if you only need the CSS styles and don't require the interactive components, you can include just the Bootstrap CSS link tag and omit the JavaScript bundle. Conversely, if you only need the interactive components and don't require the default Bootstrap styles, you can include just the JavaScript bundle and write your own custom CSS.
+
+
