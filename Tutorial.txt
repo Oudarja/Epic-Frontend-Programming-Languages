@@ -61,4 +61,36 @@ In general, you should include both the Bootstrap CSS and the Bootstrap JavaScri
 
 However, if you only need the CSS styles and don't require the interactive components, you can include just the Bootstrap CSS link tag and omit the JavaScript bundle. Conversely, if you only need the interactive components and don't require the default Bootstrap styles, you can include just the JavaScript bundle and write your own custom CSS.
 
+Q3)== and ===?
+->The triple equal sign === is the strict equality operator.
+It is used to check if two values are equal in both value and type.
+Example: 5 === 5 evaluates to true, because both the value and the type are the same.
+Example: 5 === '5' evaluates to false, because the values are the same but the types are different (number and string).
+The == operator in JavaScript is the loose equality operator, and it works differently than the === strict equality operator.
+
+The main difference between == and === is that == performs type coercion, while === does not.
+
+Here's how the == operator works:
+
+Type Coercion: If the two operands are not of the same type, JavaScript will attempt to convert one or both of the values to a common type before performing the comparison.
+
+Comparison: Once the values are of the same type, the comparison is made based on their values.
+As you can see, the == operator can sometimes lead to unexpected results due to the implicit type coercion. This is why it's generally recommended to use the === strict equality operator instead, which does not perform any type coercion and simply checks if the values and types are exactly the same.
+
+***Coercion is the act or process of persuading someone forcefully to do something that they do not want to do.
+
+Q4)Difference between Var and let?
+-> The main differences between var and let in JavaScript are:
+
+**Scope:
+var has function scope or global scope, meaning the variable is accessible within the function it was defined in, or globally if defined outside of a function.
+let has block scope, meaning the variable is accessible within the block (e.g., inside a pair of curly braces {}) it was defined in.
+
+**Hoisting:
+var variables are hoisted to the top of their scope and initialized with a value of undefined.
+let variables are also hoisted, but they are not initialized. Accessing a let variable before it is declared will result in a ReferenceError.
+
+**Redeclaration:
+var variables can be redeclared within the same scope without causing an error.
+let variables cannot be redeclared within the same block scope, and will throw a SyntaxError.
 
